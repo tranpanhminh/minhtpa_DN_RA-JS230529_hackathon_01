@@ -1,1 +1,0 @@
-Trần Phước Anh Minh - Đà Nẵng
