@@ -54,7 +54,7 @@ img {
 }
 
 .thumbnail {
-    border-top: 5px solid #f4c326;
+    border-top: 6px solid #f4c326;
 }
 
 .thumbnail-image {
@@ -63,6 +63,7 @@ img {
 
 .thumbnail-image:hover {
     cursor: pointer;
+    opacity: 90%;
 }
 
 .post-title {
