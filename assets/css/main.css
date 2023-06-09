@@ -1,0 +1,94 @@
+/* CSS chung */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mtmb-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS chi tiết */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.banner {
+    margin-bottom: 40px;
+    position: relative;
+    width: auto;
+}
+
+.banner__background-text {
+    width: 200px;
+}
+
+.banner__title {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: rgba(227, 181, 58, 0.8);
+    padding: 30px 50px;
+    padding-right: 200px;
+    width: 550px;
+    height: 130px;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.container-item {}
+
+
+.thumbnail {
+    border-top: 5px solid #f4c326;
+}
+
+.thumbnail-image {
+    object-fit: cover;
+}
+
+/* CSS Mobile */
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/* CSS Tablet */
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        width: 100%;
+    }
+}
