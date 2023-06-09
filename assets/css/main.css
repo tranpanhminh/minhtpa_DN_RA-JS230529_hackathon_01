@@ -76,7 +76,7 @@ img {
     color: #f4c326;
 }
 
-/* CSS Mobile */
+/* CSS Mobile Responsive */
 
 @media screen and (max-width: 767px) {
 
@@ -109,7 +109,7 @@ img {
 
 }
 
-/* CSS Tablet */
+/* CSS Tablet Responsive */
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
 
