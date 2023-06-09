@@ -35,16 +35,15 @@ img {
 
 .banner__title {
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     left: 0;
     background-color: rgba(227, 181, 58, 0.8);
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 146px;
-    width: 480px;
+    width: 500px;
     height: 80px;
     font-size: 24px;
-    line-height: 1.2;
 }
 
 .container {
