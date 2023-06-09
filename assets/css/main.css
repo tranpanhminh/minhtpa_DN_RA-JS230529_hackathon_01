@@ -38,11 +38,12 @@ img {
     bottom: 50px;
     left: 0;
     background-color: rgba(227, 181, 58, 0.8);
-    padding: 30px 50px;
-    padding-right: 200px;
-    width: 550px;
-    height: 130px;
-    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 146px;
+    width: 480px;
+    height: 80px;
+    font-size: 24px;
     line-height: 1.2;
 }
 
@@ -92,6 +93,10 @@ img {
         margin: 0 auto;
     }
 
+    html {
+        max-width: 767px;
+    }
+
 }
 
 /* CSS Tablet */
@@ -117,5 +122,10 @@ img {
     main {
         width: auto;
         margin: 0 auto;
+    }
+
+    html {
+        max-width: 768px;
+        max-width: 1023px;
     }
 }
