@@ -66,9 +66,14 @@ img {
     object-fit: cover;
 }
 
+.thumbnail-image:hover {
+    cursor: pointer;
+}
+
 .post-title {
     cursor: pointer;
 }
+
 
 .post-title:hover {
     color: #f4c326;
@@ -89,9 +94,9 @@ img {
         left: 0;
         background-color: rgba(227, 181, 58, 0.8);
         padding: 10px 10px 10px 10px;
-        width: 240px;
-        height: 50px;
-        font-size: 15px;
+        width: 260px;
+        height: 75px;
+        font-size: 20px;
         line-height: 1.2;
     }
 
@@ -120,7 +125,7 @@ img {
         bottom: 50px;
         left: 0;
         background-color: rgba(227, 181, 58, 0.8);
-        padding: 30px 50px;
+        padding: 30px 30px;
         width: 600px;
         height: 130px;
         font-size: 30px;
