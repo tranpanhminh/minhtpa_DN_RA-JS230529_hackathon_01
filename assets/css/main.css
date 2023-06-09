@@ -31,9 +31,7 @@ img {
     width: auto;
 }
 
-.banner__background-text {
-    width: 200px;
-}
+.banner__background-text {}
 
 .banner__title {
     position: absolute;
@@ -82,10 +80,10 @@ img {
         bottom: 30px;
         left: 0;
         background-color: rgba(227, 181, 58, 0.8);
-        padding: 30px 60px;
-        width: 350px;
-        height: 110px;
-        font-size: 23px;
+        padding: 10px 10px 10px 10px;
+        width: 240px;
+        height: 50px;
+        font-size: 15px;
         line-height: 1.2;
     }
 
