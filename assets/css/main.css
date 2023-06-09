@@ -85,12 +85,6 @@ img {
         margin: 0 auto;
     }
 
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
     .banner__title {
         position: absolute;
         bottom: 30px;
@@ -107,6 +101,12 @@ img {
         justify-content: center;
     }
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
 }
 
 /* CSS Tablet Responsive */
@@ -116,12 +116,6 @@ img {
     main {
         width: auto;
         margin: 0 auto;
-    }
-
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
     }
 
     .banner__title {
@@ -137,6 +131,12 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
     }
 
 }
